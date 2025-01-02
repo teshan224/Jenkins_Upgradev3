@@ -22,5 +22,10 @@ pipeline {
                         echo "Deploying in Production Area"
                   }
             }
+            stage('Doing right thing') {
+                  steps {
+                        echo "to get devops job quckliy"
+                  }
+            }
       }
 }
