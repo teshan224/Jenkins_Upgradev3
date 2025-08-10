@@ -17,6 +17,11 @@ pipeline{
                         echo 'deploy in staging env'
                   }
             }
+            stage('Deploy in production'){
+                  steps{
+                        echo 'deploy in prod env'
+                  }
+            }
 
 
             
